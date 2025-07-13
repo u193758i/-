@@ -1,0 +1,90 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow512" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="4" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="buttonShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded rectangle -->
+  <rect x="48" y="48" width="416" height="416" rx="80" ry="80" fill="url(#bgGradient512)" filter="url(#shadow512)"/>
+  
+  <!-- Screen -->
+  <rect x="96" y="96" width="320" height="80" rx="12" ry="12" fill="url(#screenGradient512)"/>
+  
+  <!-- Display text -->
+  <text x="400" y="148" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#10B981" text-anchor="end">123.45</text>
+  
+  <!-- Button grid -->
+  <!-- Row 1 -->
+  <rect x="96" y="208" width="64" height="48" rx="8" fill="#EF4444" filter="url(#buttonShadow)"/>
+  <text x="128" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">C</text>
+  
+  <rect x="176" y="208" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="208" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">±</text>
+  
+  <rect x="256" y="208" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="288" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">%</text>
+  
+  <rect x="336" y="208" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="368" y="240" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">÷</text>
+  
+  <!-- Row 2 -->
+  <rect x="96" y="272" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="128" y="304" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">7</text>
+  
+  <rect x="176" y="272" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="208" y="304" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">8</text>
+  
+  <rect x="256" y="272" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="288" y="304" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">9</text>
+  
+  <rect x="336" y="272" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="368" y="304" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">×</text>
+  
+  <!-- Row 3 -->
+  <rect x="96" y="336" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="128" y="368" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  
+  <rect x="176" y="336" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="208" y="368" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">5</text>
+  
+  <rect x="256" y="336" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="288" y="368" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">6</text>
+  
+  <rect x="336" y="336" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="368" y="368" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">-</text>
+  
+  <!-- Row 4 -->
+  <rect x="96" y="400" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="128" y="432" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  
+  <rect x="176" y="400" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="208" y="432" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  
+  <rect x="256" y="400" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="288" y="432" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  
+  <rect x="336" y="400" width="64" height="48" rx="8" fill="#F59E0B" filter="url(#buttonShadow)"/>
+  <text x="368" y="432" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">+</text>
+  
+  <!-- Row 5 -->
+  <rect x="96" y="464" width="144" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="168" y="496" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">0</text>
+  
+  <rect x="256" y="464" width="64" height="48" rx="8" fill="#6B7280" filter="url(#buttonShadow)"/>
+  <text x="288" y="496" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">.</text>
+  
+  <rect x="336" y="464" width="64" height="48" rx="8" fill="#10B981" filter="url(#buttonShadow)"/>
+  <text x="368" y="496" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">=</text>
+</svg>
